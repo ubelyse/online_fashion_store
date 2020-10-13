@@ -1,5 +1,7 @@
 #contact{
     text-justify: auto;
+    text-align: center;
+    padding-bottom: 10px;
 }
 .social-icons{
     display: inline;
