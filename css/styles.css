@@ -5,12 +5,11 @@
     display: inline;
 }
 footer{
-    background-color:rgb(233, 224, 224);
     text-align:center;
     margin-top: 5px;
     padding: 0px;
 }
 #footer{
-    background-color: black;
-    color:white
+    background-color:black;
+    color:white;
 }
