@@ -1,0 +1,44 @@
+#home{
+    padding:50px 90px;
+    background-image:url("/images/home.jpeg");
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home nav i{
+    padding-left: 20px;
+    float:right;
+    color:rgb(104, 14, 14);
+}
+.social-icons{
+    text-align:center ;
+    background-color: rgb(243,147,20);
+    margin-bottom: -19px;
+    padding: 10px;
+}
+.social-icons i{
+    padding: 20px 120px;
+    color:white;
+}
+footer{
+    background-color: black;
+    color:white;
+}
+#footer {
+    text-align: center;
+    font-size: 17px;
+}
+#contact {
+    font-size: 16px;
+    padding: 5px 10px;
+}
+#contact i{
+    color:gray;
+}
+#contact a{
+    text-decoration: none;
+    color:white;
+}
