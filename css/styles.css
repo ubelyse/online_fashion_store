@@ -1,6 +1,12 @@
+*{
+    font-family: 'Source Sans Pro',serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 #home{
     padding:50px 90px;
-    background-image:url("/images/home.jpeg");
+    background-image:url("/images/home.jpeg"),linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
     background-blend-mode: overlay;
     height: 100vh;
     background-position: center center;
@@ -8,14 +14,23 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+#home img{
+    padding:0;
+}
 #home nav i{
     padding-left: 20px;
     float:right;
     color:rgb(104, 14, 14);
 }
+.btn{margin: 130px 500px;
+    color:black;
+}
+#option{
+    display: none;
+}
 .social-icons{
     text-align:center ;
-    background-color: rgb(243,147,20);
+    background-color: rgb(223, 219, 19);
     margin-bottom: -19px;
     padding: 10px;
 }
@@ -29,11 +44,13 @@ footer{
 }
 #footer {
     text-align: center;
-    font-size: 17px;
-}
+    }
 #contact {
-    font-size: 16px;
-    padding: 5px 10px;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+#contact h3{
+    font-size: 18px;
 }
 #contact i{
     color:gray;

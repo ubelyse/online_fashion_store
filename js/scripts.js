@@ -1,7 +1,5 @@
 $(document).ready(function(){
-    $("#choose").click(function{
-        $("#option").show();
-        $("#shoes").show();
-        $("#clothes").show();
+    $(".btn").click(function(){
+        $("#option").toggle();
     });
 });
