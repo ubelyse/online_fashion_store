@@ -17,7 +17,7 @@ html, body {
 }
 
 .nav li {
-  display: inline;
+  display: list-item;
 }
 
 .nav a {
