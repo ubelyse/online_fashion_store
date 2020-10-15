@@ -1,0 +1,38 @@
+*{
+    font-family: 'Source Sans Pro',serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.social-icons{
+text-align:center ;
+background-color: rgb(223, 219, 19);
+margin-bottom: -19px;
+padding: 10px;
+}
+.social-icons i{
+ padding: 20px 120px;
+ color:white;
+}
+footer{
+ background-color: black;
+ color:white;
+ }
+#footer {
+ text-align: center;
+}
+ #contact {
+padding: 5px 15px;
+font-size: 15px;
+}
+#contact h3{
+    font-size: 18px;
+}
+#contact i{
+ color:gray;
+}
+ #contact a{
+text-decoration: none;
+color:white;
+ }
+            
