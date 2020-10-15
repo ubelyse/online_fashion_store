@@ -121,7 +121,7 @@ html, body {
   background-color: rgba(219, 217, 91, 0.6);
 }
 .shop-item {
-  margin: 30px;
+  margin: 40px;
 }
 
 .shop-item-title {
@@ -141,7 +141,7 @@ html, body {
 .shop-item-details {
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 15px;
 }
 
 .shop-item-price {
