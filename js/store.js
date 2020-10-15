@@ -27,7 +27,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase')
+    alert('Thank you for your purchase'+' and your total amount is')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
@@ -54,7 +54,7 @@ function addToCartClicked(event) {
     var shopItem = button.parentElement.parentElement
     var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
     var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
-    var imageSrc = shopItem.getElementsByClassName('shop-item-img')[0].src
+    var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
     addItemToCart(title, price, imageSrc)
     updateCartTotal()
 }
