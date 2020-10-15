@@ -1,3 +1,50 @@
+a {
+    text-decoration: none;
+}
+#landing-page {
+    background-image:url('../imgs/background.jpeg');
+    background-size: cover;
+    height: 680px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+nav {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: flex-end;
+}
+.menu {
+    display: flex;
+}
+.menu li a{Irimurielle:murielle
+    padding: 10px 15px;
+    color: white;
+}
+main {
+    padding-top: 200px;
+}
+main h1 {
+    letter-spacing: 2px;
+}
+#shop-btn {
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    background-color: black;
+    color: #FFFFFF;
+    align-items: center;
+}
+.btn {
+    display: none;
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    background-color: black;
+    color: #FFFFFF;
+    align-items: center;
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
