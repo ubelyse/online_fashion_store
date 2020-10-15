@@ -1,0 +1,91 @@
+body {
+    font-family: 'Chilanka', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid {
+    padding: 0px;
+}
+nav {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    align-items: center;
+    z-index: 2;
+    top: 0px;
+    padding: 10px 50px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+    background-color: rgba(0,0,0,0.6);
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+nav a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+@media only screen and (max-width: 800px) {
+    nav {
+        text-align: center;
+    }
+    nav ul {
+        margin-right: 5px;
+    }
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('home.jpeg'),linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+#home img {
+    padding: 0;
+}
+#home h1 {
+    letter-spacing: 2px;
+}
+#shop-btn {
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    background-color: black;
+    color: #FFFFFF;
+    align-items: center;
+    cursor: pointer;
+}
+#shop-btn:hover {
+    color: yellow;
+}
+.button {
+    display: none;
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    background-color: black;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.button:hover {
+    color: yellow;
+}

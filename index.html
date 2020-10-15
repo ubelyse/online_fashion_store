@@ -4,108 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" >
+    <link href="https://fonts.google.com/specimen/Source+Sans+Pro" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/85434d7cc7.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/home.js"></script>
     <title>Rimba Fashion Store</title>
     <link href='css/bootstrap.css' rel='stylesheet'>
-    <link href='css/styles.css' rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <link href='css/home.css' rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="#home">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-us">About us</a></li>
-                <li><a href="#location">Location</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="container-fluid">
+        <div id="home">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <img src="imgs/logo.png" height="200">
+                <h1>RIMBA FASHION STORE</h1>
+                <h2>Rimba fashion store is an online shop, that sells fashion clothes and shoes in Rwanda.<br>
+                Shop with us both clothes and shoes.</h2>
+                <button id="shop-btn"><span style="font-size: larger;font-weight: 600;">Shop now</span></button><br><br>
+                <a href="StoreShoes.html">
+                    <button class="button"><span style="font-size: larger;font-weight: 600;">Shoes</span></button>
+                </a>
+                <a href="storeclothes.html">
+                    <button class="button"><span style="font-size: larger;font-weight: 600;">Clothes</span></button>
+                </a>
+            </div>
+        </div>
     </header>
-    <div id="landing-page">
-        <nav>
-            <ul class="menu" type="none">
-                <li><a href="#contact"><i class="fas fa-phone-alt"></i><span style="font-weight: 600;font-size: 15px;">  (+250)786-044-112</span></a></li>
-                <li><a href="#location"><i class="fa fa-map-marker"></i><span style="font-weight: 600;font-size: 15px;"> Locate us</span></a></li>
-            </ul>
-        </nav>
-        <main>
-            <h1>RIMBA FASHION STORE</h1>
-            <h2>Rimba fashion store is an online shop, that sells fashion clothes and shoes in Rwanda.<br>
-            Shop with us both clothes and shoes.</h2>
-            <button id="shop-btn"><span style="font-size: larger;font-weight: 600;">Shop now</span></button>
-            <div id="store">
-                <a href="#shoes">
-                    <button class="btn"><span style="font-size: larger;font-weight: 600;">Shoes</span></button>
-                </a>
-                <a href="#clothes">
-                    <button class="btn"><span style="font-size: larger;font-weight: 600;">Clothes</span></button>
-                </a>
-            </div>
-        </main>
-    </div>
-    <div id="about-us" class="container">
-        <h2>About us</h2><br>
-        <section id="owners" class='row'>
-            <div class='card col-mx-1'>
-                <img class='card-img-top'src='imgs/Belyse.jpeg'>
-                <div class='card-body'>
-                    <h4>Belyse Inema</h4>
-                </div>
-            </div>
-            <div class='card col-mx-1'>
-                <img class='card-img-top'src='imgs/Demarlac.jpg'>
-                <div class='card-body'>
-                    <h4>Demarillac Izere</h4>
-                </div>
-            </div>
-            <div class='card col-mx-1'>
-                <img class='card-img-top'src='imgs/Stella.jpeg'>
-                <div class='card-body'>
-                    <h4>Stella Igihozo</h4>
-                </div>
-            </div>
-            <div class='card col-mx-1'>
-                <img class='card-img-top'src='imgs/Murielle.jpeg'>
-                <div class='card-body'>
-                    <h4>Murielle Iribori</h4>
-                </div>
-            </div>
-            <div class='card col-mx-1'>
-                <img class='card-img-top'src='imgs/Chrissie.jpeg'>
-                <div class='card-body'>
-                    <h4>Chrissie Karera</h4>
-                </div>
-            </div>
-        </section><br><br>
-        <div id="about">
-            We are a group of five ladies passionate about fashion and dedicated to providing to you the latest fashion trends from all around the world.
-            <br>Our team has been in business for over 5 years and continues to stay loyal to clients.If you choose us, we will never dissapoint you.
-            <br>From the moment you enter through our doors you will be embraced by our warm smiles and our experienced team
-            <br>will personally assist you in establishing a classic yet fashionable closet.
-        </div>
-    </div><br><br>
-    <div id="location" class='container'>
-        <h2>Location</h2><br><br>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5146911357465!2d30.057389414754873!3d-1.947099998580468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca42bf956db27%3A0x4ece45bc16223612!2sM%20Peace%20Plaza!5e0!3m2!1sen!2srw!4v1602582753849!5m2!1sen!2srw" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div><br>
-        <div>
-            <p id="address">You can come to pick your orders at our shop and browse more of our products.<br>We are located in Kigali's M Peace Plaza which is right next to Bank of Kigali HQ, Ground Floor Room 4.</p>
-        </div>
-    </div><br>
-    </div>
-    <div id="contact">
-        <h3>Contact us on:</h3>
-        <a href="mailto:rimbastore@gmail.com" style="text-decoration: none;color:black"><i class="fa fa-envelope" style="color:grey"></i> Mail</a>
-        <p><i class="fa fa-phone-square" style="color:grey;"></i> +250786044112</p>
-    </div>
-    <footer>
-        <div class="social-icons">
-           <img src="images/facebook.png">
-           <img src="images/instagram.png" height="50">
-           <img src="images/twitter.png" height="50">
-        <p id="footer">&copy; 2020 All rights reserved | Rimba Fashion Store</p>
-    </footer>
 </body>
 </html>

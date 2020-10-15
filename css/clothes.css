@@ -11,7 +11,9 @@
     min-height: 100%;
     
   }
-  
+  h1{
+    padding-top: 60px;
+  }
   .nav ul {
     margin: 5px;
   }
@@ -43,7 +45,7 @@
   }
   
   .main-header {
-    background-image: url("Images/Nike-Adapt-BB.jpeg");
+    background-image: url("Images/defense1.jpg");
     background-color: rgba(0, 0, 0, .6);
     
     background-blend-mode: multiply;
