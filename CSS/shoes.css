@@ -254,10 +254,10 @@ html, body {
 .btn-purchase {
   display: block;
   margin: 40px auto 80px auto;
-  font-size: 0.75em;
+  font-size: 1.35em;
 }
 .main-footer {
   background-color: rgba(0, 0, 0, .6);
   color: white;
-  padding: .25em 0;
+  padding: .20em 0;
 }
