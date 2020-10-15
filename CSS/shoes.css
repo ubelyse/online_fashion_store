@@ -191,13 +191,13 @@ html, body {
 .cart-item-title {
   color: #333;
   margin-left: .5em;
-  font-size: 2.2em;
+  font-size: 1.2em;
 }
 
 .cart-item-image {
   width: 75px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 .btn-danger {
