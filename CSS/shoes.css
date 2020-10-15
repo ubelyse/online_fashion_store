@@ -13,7 +13,7 @@ html, body {
 }
 
 .nav ul {
-  margin: 30px;
+  margin: 5px;
 }
 
 .nav li {
@@ -22,7 +22,7 @@ html, body {
 
 .nav a {
   display: inline-block;
-  padding: .5em;
+  padding: .9em;
   color: white;
   text-decoration: none;
 }
