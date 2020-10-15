@@ -3,7 +3,7 @@ if (document.readyState == 'loading') {
 } else {
     ready()
 }
-
+var total=0;
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
@@ -27,7 +27,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase'+' and your total amount is')
+    alert('Thank you for your purchase' + ' and your total amount is ' + total)
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
@@ -89,15 +89,15 @@ function addItemToCart(title, price, imageSrc) {
 function updateCartTotal() {
     var cartItemContainer = document.getElementsByClassName('cart-items')[0]
     var cartRows = cartItemContainer.getElementsByClassName('cart-row')
-    var total = 0
+    total = 0
     for (var i = 0; i < cartRows.length; i++) {
         var cartRow = cartRows[i]
         var priceElement = cartRow.getElementsByClassName('cart-price')[0]
         var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
-        var price = parseFloat(priceElement.innerText.replace('Rwf',''))
+        var price = parseFloat(priceElement.innerText.replace('RWF', ''))
         var quantity = quantityElement.value
         total = total + (price * quantity)
     }
     total = Math.round(total * 100) / 100
-    document.getElementsByClassName('cart-total-price')[0].innerText = total+  'Rwf' 
+    document.getElementsByClassName('cart-total-price')[0].innerText =  total + 'Rwf'
 }
