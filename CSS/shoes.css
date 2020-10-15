@@ -179,13 +179,13 @@ html, body {
 }
 
 .cart-price {
-  width: 10%;
+  width: 20%;
   font-size: 1.2em;
   color: #333;
 }
 
 .cart-quantity {
-  width: 35%;
+  width: 15%;
 }
 
 .cart-item-title {
