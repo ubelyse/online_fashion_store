@@ -15,7 +15,7 @@ h2{
 #owners{
     display:grid;
     grid-template-columns: auto auto auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 nav{
     width:100%;
@@ -46,6 +46,9 @@ nav a:hover{
     }
     #owners{
         grid-template-columns: auto auto;
+    }
+    .card-img-top{
+        height:280px;
     }
     #about,#address{
         text-align: left;
