@@ -197,19 +197,19 @@ html, body {
 .cart-item-image {
   width: 75px;
   height: auto;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .btn-danger {
   color: white;
-  background-color: #EB5757;
+  background-color: #7a4040;
   border: none;
   border-radius: .3em;
   font-weight: bold;
 }
 
 .btn-danger:hover {
-  background-color: #CC4C4C;
+  background-color: #e0b5b5;
 }
 
 .cart-quantity-input {
