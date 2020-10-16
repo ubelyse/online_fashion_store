@@ -34,6 +34,10 @@ function purchaseClicked() {
     }
     updateCartTotal()
 }
+if(document.getElementById('checkout'). clicked == true)
+{
+alert("button was clicked");
+}
 
 function removeCartItem(event) {
     var buttonClicked = event.target
