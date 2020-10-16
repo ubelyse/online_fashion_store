@@ -25,11 +25,10 @@ nav {
     padding: 10px 50px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
     background-color: rgba(0,0,0,0.6);
-    font-family: 'Chilanka', cursive;
-    z-index: 2;
 }
 nav li {
     list-style: none;
+    font-family: 'Chilanka', cursive;
     display: inline-block;
     margin-right: 80px;
 }
@@ -51,6 +50,7 @@ nav a:hover {
     nav ul {
         margin-right: 5px;
     }
+}
 #contact-us{
     margin-top:80px;
 }
@@ -60,14 +60,14 @@ form{
 .social-icons{
 text-align:center ;
 background-color: rgb(223, 219, 19);
-margin-bottom: -30px;
+margin-bottom: -10px;
 }
 .social-icons i{
  padding: 20px 120px;
  color:white;
 }
 footer{
- margin-top:-30px;
+ margin-top:-10px;
  padding-bottom: 5px;     
  background-color:rgb(68, 68, 68);
  color:white;
@@ -99,4 +99,4 @@ color:white;
     #about,#address{
         text-align: left;
     }
-}}
+}
