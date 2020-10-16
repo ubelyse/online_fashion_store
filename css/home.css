@@ -60,7 +60,9 @@ nav a:hover {
 #home img {
     padding: 0;
 }
-
+h1 strong{
+    color: yellow;
+  }
 #home h1 {
     letter-spacing: 2px;
 }

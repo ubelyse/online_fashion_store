@@ -25,10 +25,10 @@ nav {
     padding: 10px 50px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
     background-color: rgba(0,0,0,0.6);
+    font-family: 'Chilanka', cursive;
 }
 nav li {
     list-style: none;
-    font-family: 'Chilanka', cursive;
     display: inline-block;
     margin-right: 80px;
 }

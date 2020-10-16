@@ -1,7 +1,6 @@
 
 * {
   box-sizing: border-box;
-  font-family: Raleway;
   color: rgb(160, 158, 158);
 }
 
@@ -12,7 +11,11 @@ html, body {
   
 }
 h1{
+  font-family: 'Chilanka', cursive;
   padding-top: 60px;
+}
+h1 strong{
+  color: yellow;
 }
 .nav ul {
   margin: 5px;
