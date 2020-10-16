@@ -5,48 +5,52 @@ body{
  .card-img-top{
     height:200px;
 } 
-#about-us,#location,#contact{
+#about-us,#location,#contact,h2{
     text-align:center;
     margin-top:80px;
+    font-family: 'Chilanka', cursive;
 } 
-h2{
-    font-family: 'Roboto', sans-serif;
-}
 #owners{
     display:grid;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 20px;
 }
-nav{
-    width:100%;
-    background-color:rgb(68,68,68);
+nav {
+    width: 100%;
     text-align: right;
-    padding:7px;
-    position:fixed;
+    position: fixed;
+    align-items: center;
     z-index: 2;
-    top:0px;
+    top: 0px;
+    padding: 10px 50px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+    background-color: rgba(0,0,0,0.6);
+    font-family: 'Chilanka', cursive;
+    z-index: 2;
 }
-nav li{
+nav li {
     list-style: none;
-    display:inline-block;
-    margin-right:80px;
+    display: inline-block;
+    margin-right: 80px;
 }
-nav a{
+nav a {
     text-decoration: none;
-    color:white;
+    color: white;
+    padding: 10px 15px;
 }
-nav a:hover{
+nav a:hover {
     text-decoration: none;
-    color:rgb(255, 251, 0);
+    color: black;
     cursor: pointer;
-    background-color: transparent;
+    background-color: white;
 }
-/* *{
-    font-family: 'Source Sans Pro',serif;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-} */
+@media only screen and (max-width: 800px) {
+    nav {
+        text-align: center;
+    }
+    nav ul {
+        margin-right: 5px;
+    }
 #contact-us{
     margin-top:80px;
 }
@@ -95,4 +99,4 @@ color:white;
     #about,#address{
         text-align: left;
     }
-  }
+}}
