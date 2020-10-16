@@ -1,6 +1,7 @@
 
 * {
   box-sizing: border-box;
+  font-family: Raleway;
   color: rgb(160, 158, 158);
 }
 
@@ -12,8 +13,37 @@ html, body {
 }
 h1{
   padding-top: 60px;
-  font-family: 'Chilanka', cursive;
 }
+.nav ul {
+  margin: 5px;
+}
+
+.nav li {
+  display: list-item;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .9em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, .3)
+}
+
 .main-header {
   background-image: url("Images/Nike-Adapt-BB.jpeg");
   background-color: rgba(0, 0, 0, .6);
@@ -53,6 +83,11 @@ h1{
   font-size: 2.5em;
 }
 
+
+
+
+
+
 .btn {
   text-align: center;
   
@@ -60,17 +95,25 @@ h1{
   cursor: pointer;
 }
 
+
+
+
+
+
+
 .btn-primary {
   color: white;
   background-color: #56CCF2;
   border: none;
   border-radius: .3em;
   font-weight: bold;
+  margin: 10px;
 }
 
 .btn-primary:hover {
   background-color: #34454e;
 }
+
 
 
 
@@ -106,7 +149,7 @@ h1{
 }
 
 .shop-item-price {
-  
+  text-align: center;
   color: #333;
 }
 
@@ -221,5 +264,4 @@ h1{
   background-color: rgba(0, 0, 0, .6);
   color: white;
   padding: .20em 0;
-  font-family: 'Chilanka', cursive;
 }
