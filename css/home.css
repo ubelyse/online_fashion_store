@@ -60,8 +60,30 @@ nav a:hover {
 #home img {
     padding: 0;
 }
+
 #home h1 {
     letter-spacing: 2px;
+}
+#home h1, h2, img, #shop-btn {
+    animation: fromLeft;
+    animation-duration: 2s; 
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+@keyframes fromLeft {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(30px)
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 #shop-btn {
     width: 150px;
@@ -71,6 +93,7 @@ nav a:hover {
     color: #FFFFFF;
     align-items: center;
     cursor: pointer;
+    transition: all 1.5s ease-in-out;
 }
 #shop-btn:hover {
     color: yellow;
@@ -85,6 +108,24 @@ nav a:hover {
     align-items: center;
     justify-content: space-evenly;
     cursor: pointer;
+    animation: fromRight;
+    animation-duration: 2s; 
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes fromRight {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-30px)
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 .button:hover {
     color: yellow;
