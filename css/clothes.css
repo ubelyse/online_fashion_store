@@ -1,7 +1,6 @@
 
 * {
     box-sizing: border-box;
-    font-family: Raleway;
     color: rgb(160, 158, 158);
   }
   
@@ -13,37 +12,8 @@
   }
   h1{
     padding-top: 60px;
+    font-family: 'Chilanka', cursive;
   }
-  .nav ul {
-    margin: 5px;
-  }
-  
-  .nav li {
-    display: list-item;
-  }
-  
-  .nav a {
-    display: inline-block;
-    padding: .9em;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .main-nav {
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
-  }
-  
-  .main-nav li {
-    padding: 0 5%;
-  }
-  
-  .nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
-  }
-  
   .main-header {
     background-image: url("Images/defense1.jpg");
     background-color: rgba(0, 0, 0, .6);
@@ -51,6 +21,7 @@
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
+    padding-left: 30px;
   }
   
   .band-name {
@@ -82,25 +53,12 @@
     text-align: center;
     font-size: 2.5em;
   }
-  
-  
-  
-  
-  
-  
   .btn {
     text-align: center;
     
     padding: .67em .67em;
     cursor: pointer;
   }
-  
-  
-  
-  
-  
-  
-  
   .btn-primary {
     color: white;
     background-color: #56CCF2;
@@ -112,9 +70,6 @@
   .btn-primary:hover {
     background-color: #34454e;
   }
-  
-  
-  
   .men  {
     background-color: rgba(54, 29, 29, 0.2);
     background-size: contain;
