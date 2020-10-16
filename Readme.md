@@ -50,6 +50,12 @@ Rimba fashion store is an online fashion website that sells fashion clothes and 
 * CSS
 * Bootstrap
 * jQuery
+### Screenshot of the page
+![RIMBA FASHION SHOP](imgs/Rimba.png)
+### Bugs
+No Known Bugs
+### Live Link of the page
+https://ubelyse.github.io/online_fashion_store/
 ## Contact information
 * irimurielle@gmail.com
 * igihozo96@gmail.com
@@ -57,4 +63,4 @@ Rimba fashion store is an online fashion website that sells fashion clothes and 
 * izered3@gmail.com
 * ubelyse1@gmail.com
 ## License
->MIT LICENSE &copy; 2020
+>MS LICENSE &copy; 2020
