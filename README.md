@@ -64,11 +64,3 @@ https://ubelyse.github.io/online_fashion_store/
 * ubelyse1@gmail.com
 ## License
 >MS LICENSE &copy; 2020
-Contact information
-irimurielle@gmail.com
-igihozo96@gmail.com
-karerassie@gmail.com
-izered3@gmail.com
-ubelyse1@gmail.com
-License
->MS LICENSE © 2020
